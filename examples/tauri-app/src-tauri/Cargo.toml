@@ -1,0 +1,20 @@
+[package]
+name = "tauri-app"
+version = "0.0.0"
+description = "A Tauri App"
+authors = ["you"]
+license = ""
+repository = ""
+edition = "2021"
+rust-version = "1.70"
+
+[lib]
+name = "tauri_app_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2.0.0-beta.9", default-features = false , features = [] }
+
+[dependencies]
+tauri = { version = "2.0.0-beta.11", features = [] }
+tauri-plugin-accent-color = { path = "../../../" }
