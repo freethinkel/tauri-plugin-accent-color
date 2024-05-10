@@ -2,7 +2,7 @@
 
 A Tauri plugin to get the system accent color for macOS
 
-<video controls src="examples/screenshots/example.mp4" title="Example"></video>
+<video controls src="https://github.com/freethinkel/tauri-plugin-accent-color/raw/main/examples/screenshots/example.mp4" title="Example"></video>
 
 ## Install
 
