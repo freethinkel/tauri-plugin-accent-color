@@ -2,7 +2,7 @@
 
 A Tauri plugin to get the system accent color for macOS
 
-<video playsinline muted autoplay loop src="./examples/screenshots/example.mp4"/>
+<video controls src="examples/screenshots/example.mp4" title="Example"></video>
 
 ## Install
 
