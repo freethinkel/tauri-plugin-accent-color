@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@tauri-apps/api": "^2.0.0-alpha.11",
-    "tauri-plugin-accent-color": "link:../../"
+    "tauri-plugin-accent-color": "git+https://github.com/freethinkel/tauri-plugin-accent-color"
   },
   "devDependencies": {
     "@sveltejs/vite-plugin-svelte": "^1.0.1",

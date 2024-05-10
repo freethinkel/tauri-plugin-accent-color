@@ -17,4 +17,4 @@ tauri-build = { version = "2.0.0-beta.9", default-features = false , features = 
 
 [dependencies]
 tauri = { version = "2.0.0-beta.11", features = [] }
-tauri-plugin-accent-color = { path = "../../../" }
+tauri-plugin-accent-color = { git = "https://github.com/freethinkel/tauri-plugin-accent-color" }
