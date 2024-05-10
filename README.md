@@ -2,22 +2,20 @@
 
 A Tauri plugin to get the system accent color for macOS
 
-<video playsinline muted autoplay loop>
-  <source src="./examples/screenshots/example.mp4"/>
-</video>
+<video playsinline muted autoplay loop src="./examples/screenshots/example.mp4"/>
 
 ## Install
 
 ```toml
 # Cargo.toml
 [dependencies]
-tauri-plugin-accent-color = { path = "../../../" }
+tauri-plugin-accent-color = { git = "https://github.com/freethinkel/tauri-plugin-accent-color" }
 ```
 
 ```json
 // package.json
 "dependencies": {
-  "tauri-plugin-accent-color": "link:../../"
+  "tauri-plugin-accent-color": "git+https://github.com/freethinkel/tauri-plugin-accent-color"
 }
 ```
 
@@ -49,7 +47,7 @@ accentColor.subscribe((color) => {
 ## Example
 
 ```sh
-git clone [the repo]
+git clone https://github.com/freethinkel/tauri-plugin-accent-color
 cd tauri-plugin-accent-color/example/tauri-app
 npm install
 npm run tauri dev
