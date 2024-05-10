@@ -22,9 +22,9 @@ tauri-plugin-accent-color = { git = "https://github.com/freethinkel/tauri-plugin
 ## Using
 
 ```rust
-// src-tauri/main.rs
+// src-tauri/lib.rs
+use tauri_plugin_accent_color;
 
-#[cfg_attr(mobile, tauri::mobile_entry_point)]
 pub fn run() {
     tauri::Builder::default()
         .plugin(tauri_plugin_accent_color::init())

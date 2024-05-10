@@ -1,4 +1,5 @@
-#[cfg_attr(mobile, tauri::mobile_entry_point)]
+use tauri_plugin_accent_color;
+
 pub fn run() {
     tauri::Builder::default()
         .plugin(tauri_plugin_accent_color::init())
