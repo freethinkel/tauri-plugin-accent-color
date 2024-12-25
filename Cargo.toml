@@ -1,6 +1,6 @@
 [package]
 name = "tauri-plugin-accent-color"
-version = "0.0.0"
+version = "1.0.0"
 authors = [ "You" ]
 description = ""
 edition = "2021"
@@ -9,7 +9,7 @@ exclude = ["/examples", "/webview-dist", "/webview-src", "/node_modules"]
 links = "tauri-plugin-accent-color"
 
 [dependencies]
-tauri = { version = "2.0.0-beta.11" }
+tauri = { version = "2" }
 serde = "1.0"
 thiserror = "1.0"
 cocoa = "0.25.0"

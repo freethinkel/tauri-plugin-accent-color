@@ -1,6 +1,7 @@
 use cocoa::base::id;
 use notification::NSNotificationCenter;
 use objc::{class, msg_send, sel, sel_impl};
+use tauri::Emitter;
 use tauri::{
     plugin::{Builder, TauriPlugin},
     AppHandle, Manager, Runtime,
